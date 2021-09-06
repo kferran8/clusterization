@@ -46,7 +46,7 @@ def create_cluster(df_initial, n_cluster):
 
 
 def app():
-    st.title('Кластеризация')
+    st.title('Multiparameter clustering')
     uploaded_file = st.file_uploader('Загрузите или перетащите файл Excel')
     try:
         # Читаем вель эксель файл
